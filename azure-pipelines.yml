@@ -5,8 +5,8 @@ resources:
   repositories:
   - repository: templates
     type: github
-    name: soccerjoshj07/pipeline-templates
-    endpoint: soccerjoshj07
+    name: Devsec00ps/pipeline-templates
+    endpoint: Devsec00ps
 
 extends:
   template: secret-scanning/secret-scanning-extends.yml@templates
