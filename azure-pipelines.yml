@@ -9,7 +9,7 @@ resources:
     endpoint: Devsec00ps
 
 extends:
-  template: secret-scanning/secret-scanning-extends.yml@templates
+  template: ../secret-scanning/secret-scanning-extends.yml@templates
   parameters:
     buildSteps:
     # use steps template for build
